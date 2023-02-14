@@ -51,7 +51,10 @@ _______________
 + Install JDK
 + Install Tomcat server
 + Clone the project from GitHub
-+ Configure db.properties file
-+ Configure Tomcat server
++ Configure db.properties file, which is located in the folder src/main/resources
++ Install and configure Tomcat server
++ Add new run configuration on Intellij IDEA -> go to Edit configuration -> Add new ->
+  -> Tomcat server -> Local -> Fix -> Select "my-cinema-app:war-exploded" ->
+  -> in application context save only "/"
 + Use Postman to test the program
 + At the start created default admin with login: admin@i.ua password: admin123
